@@ -34,42 +34,39 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 
 > 安装方式：
 > 
-> `ctrl+shift+p` 打开 Package Control 命令窗口 ，输入 `pip` 回车，然后再输入插件名回车，等待安装完成（注意：部分插件安装好后需手动重启 Sublime）
+> `ctrl+shift+p` 打开 Package Control 命令窗口 ，输入 `pip` 回车，然后再输入插件名回车，等待安装完成。
+> 
+> **注意**：部分插件安装好后需手动重启
 
+* [Alignment](https://github.com/wbond/sublime_alignment) 代码自动对齐
 * AutoFileName
-* [ BracketHighlighter](https://github.com/facelessuser/BracketHighlighter) --> [高亮色彩配置](./插件BracketHighlighter高亮色彩配置.md)
-* DocBlockr
-* Emmet
+* [ BracketHighlighter](https://github.com/facelessuser/BracketHighlighter) 高亮配对符号 --> [高亮色彩配置](./插件BracketHighlighter高亮色彩配置.md)
+* DocBlockr 注释
+* [Emmet](https://emmet.io/)（前身是 Zen Coding，前端必备）
 * jQuery
-* SideBarEnhancements
-* SulimeCodeIntel
+* [FileDiffs](https://github.com/colinta/SublimeFileDiffs) 文件差异比较
+* SideBarEnhancements 侧边栏加强
+* [SulimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) 代码提示和补全插件
+* ...
 
 
 ### 3. 图标
 
-<img src="./ico/2d3130312e706e67.png" width="256" height="256" alt="Sublime ico" align=center />
-
-<img src="./ico/Icon@0,5x.png" width="256" height="256" alt="Sublime ico" align=center />
-
-<img src="./ico/logo-sublime-3.png" width="256" height="256" alt="Sublime ico" align=center />
-
-<img src="./ico/Sublime_Text_2.png" width="256" height="256" alt="Sublime ico" align=center />
-
-<img src="./ico/sublime-icon.png" width="256" height="256" alt="Sublime ico" align=center />
-
-<img src="./ico/Sublime_text_256x256x32.png" width="256" height="256" alt="Sublime ico" align=center />
+[图片比较大，请直接看这里](./icons.md)
 
 ### 4. 快捷键
 
-```
-通用（General）
+```bash
+# 通用（General）
+---
 
 ↑↓←→：上下左右移动光标，注意不是不是KJHL！
 Alt：调出菜单
 Ctrl + Shift + P：调出命令板（Command Palette）
 Ctrl + `：调出控制台
 
-编辑（Editing）
+# 编辑（Editing）
+---
 
 Ctrl + Enter：在当前行下面新增一行然后跳至该行
 Ctrl + Shift + Enter：在当前行上面增加一行并跳至该行
@@ -78,7 +75,8 @@ Ctrl + Shift + ←/→进行逐词选择
 Ctrl + ↑/↓移动当前显示区域
 Ctrl + Shift + ↑/↓移动当前行
 
-选择（Selecting）
+# 选择（Selecting）
+---
 
 Ctrl + D：选择当前光标所在的词并高亮该词所有出现的位置，再次Ctrl + D选择该词出现的下一个位置，在多重选词的过程中，使用Ctrl + K进行跳过，使用Ctrl + U进行回退，使用Esc退出多重编辑
 Ctrl + Shift + L：将当前选中区域打散
@@ -88,7 +86,8 @@ Ctrl + Shift + M：快速选择括号间的内容
 Ctrl + Shift + J：快速选择同缩进的内容
 Ctrl + Shift + Space：快速选择当前作用域（Scope）的内容
 
-查找&替换（Finding&Replacing）
+# 查找&替换（Finding&Replacing）
+---
 
 F3：跳至当前关键字下一个位置
 Shift + F3：跳到当前关键字上一个位置
@@ -101,7 +100,8 @@ Ctrl + Shift + H：替换当前关键字
 Ctrl + Alt + Enter：替换所有关键字匹配
 Ctrl + Shift + F：多文件搜索&替换
 
-跳转（Jumping）
+# 跳转（Jumping）
+---
 
 Ctrl + P：跳转到指定文件，输入文件名后可以：
 @ 符号跳转：输入@symbol跳转到symbol符号所在的位置
@@ -110,14 +110,16 @@ Ctrl + P：跳转到指定文件，输入文件名后可以：
 Ctrl + R：跳转到指定符号
 Ctrl + G：跳转到指定行号
 
-窗口（Window）
+# 窗口（Window）
+---
 
 Ctrl + Shift + N：创建一个新窗口
 Ctrl + N：在当前窗口创建一个新标签
 Ctrl + W：关闭当前标签，当窗口内没有标签时会关闭该窗口
 Ctrl + Shift + T：恢复刚刚关闭的标签
 
-屏幕（Screen）
+# 屏幕（Screen）
+---
 
 F11：切换普通全屏
 Shift + F11：切换无干扰全屏
@@ -127,11 +129,11 @@ Alt + Shift + 5：进行上下左右分屏
 分屏之后，使用Ctrl + 数字键跳转到指定屏，使用Ctrl + Shift + 数字键将当前屏移动到指定屏
 ```
 
-### 5. 个人配置
+### 5. 推荐个人配置
 
-```python
+```json
 {
-    // 主题：Afterglow https://github.com/YabataDesign/afterglow-theme
+    // 主题、配色相关
     "theme": "Afterglow-green.sublime-theme", // 整体界面
     "color_scheme": "Packages/Theme - Afterglow/Flatland - Monokai.tmTheme", // 配色方案
     // "sidebar_no_icon": true,
