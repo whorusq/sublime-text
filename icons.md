@@ -1,23 +1,59 @@
-<a href="./ico/2d3130312e706e67.png">
-    <img src="./ico/2d3130312e706e67.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
 
-<a href="./ico/Icon@0,5x.png">
-    <img src="./ico/Icon@0,5x.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
+>
+> 全部为 png 格式图片，可下载后使用工具转换成对应的 ico、icns 文件
+>
+> 推荐一个在线转换工具：[iConvert Icons](https://iconverticons.com/online/)
+>
 
-<a href="./ico/logo-sublime-3.png">
-    <img src="./ico/logo-sublime-3.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
+---
 
-<a href="./ico/Sublime_Text_2.png">
-    <img src="./ico/Sublime_Text_2.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
-
-<a href="./ico/sublime-icon.png">
-    <img src="./ico/sublime-icon.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
-
-<a href="./ico/Sublime_text_256x256x32.png">
-    <img src="./ico/Sublime_text_256x256x32.png" width="256" height="256" alt="Sublime ico" align=center />
-</a>
+<p>
+    <a href="./ico/st3001.png">
+        <img src="./ico/st3001.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3002.png">
+        <img src="./ico/st3002.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3003.png">
+        <img src="./ico/st3003.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3004.png">
+        <img src="./ico/st3004.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3005.png">
+        <img src="./ico/st3005.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3006.png">
+        <img src="./ico/st3006.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3007.png">
+        <img src="./ico/st3007.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3008.png">
+        <img src="./ico/st3008.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3009.png">
+        <img src="./ico/st3009.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+</p>
+<p>
+    <a href="./ico/st3010.png">
+        <img src="./ico/st3010.png" width="256" height="256" alt="Sublime icon" align="center" />
+    </a>
+<p>

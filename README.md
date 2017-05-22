@@ -52,7 +52,7 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 
 ### 3. 图标
 
-[图片比较大，请直接看这里](./icons.md)
+[请直接看这里](./icons.md)
 
 ### 4. 快捷键
 
@@ -131,7 +131,7 @@ Alt + Shift + 5：进行上下左右分屏
 
 ### 5. 推荐个人配置
 
-```json
+```python
 {
     // 主题、配色相关
     "theme": "Afterglow-green.sublime-theme", // 整体界面
