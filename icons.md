@@ -1,11 +1,12 @@
 
 >
-> 全部为 png 格式图片，可下载后使用工具转换成对应的 ico、icns 文件
+> icons 目录中为 png/icns 格式的图片
+> 
+> macOS 系统可直接使用 icns 格式，windows 系统请下载后使用工具转换成 ico 格式
 >
 > 推荐一个在线转换工具：[iConvert Icons](https://iconsnverticons.com/online/)
 >
 
----
 
 <p>
     <a href="./icons/st3001.png">
