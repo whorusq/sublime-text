@@ -67,7 +67,7 @@ Sublime Text 3 资源
 
 ### 3. 图标
 
-[请直接到这里浏览](./icons/README.md)
+[请直接到这里浏览](./icons/)
 
 ### 4. 快捷键
 
