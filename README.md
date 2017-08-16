@@ -196,7 +196,7 @@ Alt + Shift + 5：进行上下左右分屏
     "translate_tabs_to_spaces": true, // 设为true时，缩进和遇到Tab键时使用空格替代
     "scroll_past_end": false, // 设置为false时，滚动到文本的最下方时，没有缓冲区
     // "highlight_modified_tabs": true, // 高亮内容有修改的标签
-    // "find_selected_text": true, // 匹配选中的文本
+    "find_selected_text": true, // 匹配选中的文本
     "trim_trailing_white_space_on_save": true, // 保存文件时是否删除每行结束后多余的空格
     // "ensure_newline_at_eof_on_save": false,  // 保存文件时光标是否在文件的最后向下换一行
     // "save_on_focus_lost": false, // 切换到其它文件标签或点击其它非本软件区域，文件是否自动保存
