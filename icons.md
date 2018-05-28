@@ -10,6 +10,12 @@
 
 <p>
     <a href="./icons/st3001.png">
+        <img src="./icons/Sublime_Text.png" width="256" height="256" alt="Sublime icon"  />
+    </a>
+    <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/Sublime_Text.png">PNG下载</a> | <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/Sublime_Text.icns">ICNS 下载</a>
+</p>
+<p>
+    <a href="./icons/st3001.png">
         <img src="./icons/st3001.png" width="256" height="256" alt="Sublime icon"  />
     </a>
     <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/st3001.png">PNG下载</a> | <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/st3001.icns">ICNS 下载</a>

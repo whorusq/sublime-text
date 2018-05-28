@@ -1,6 +1,9 @@
-Sublime Text 3 资源
----
 
+<p align="center">
+	<a href="https://www.sublimetext.com">
+		<img src="./icons/Sublime_Text.png" attr="sublime text 3 logo" title="官网：https://www.sublimetext.com">
+	</a>
+</p>
 
 ### 索引
 
@@ -51,10 +54,10 @@ Sublime Text 3 资源
 > 
 > `ctrl+shift+p` 打开 Package Control 命令窗口 ，输入 `pip` 回车，然后再输入插件名回车，等待安装完成。
 > 
-> **注意**：部分插件安装好后需手动重启
+> **注意**：部分插件安装好后需手动重启，并追加一些配置参数，详见各插件安装说明。
 
 * [Alignment](https://github.com/wbond/sublime_alignment) 代码自动对齐
-* AutoFileName
+* AutoFileName 
 * [ BracketHighlighter](https://github.com/facelessuser/BracketHighlighter) 高亮配对符号 --> [高亮色彩配置](./插件BracketHighlighter高亮色彩配置.md)
 * DocBlockr 注释
 * [Emmet](https://emmet.io/)（前身是 Zen Coding，前端必备）
@@ -62,6 +65,13 @@ Sublime Text 3 资源
 * [FileDiffs](https://github.com/colinta/SublimeFileDiffs) 文件差异比较
 * SideBarEnhancements 侧边栏加强
 * [SulimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) 代码提示和补全插件
+* [DashDoc](https://github.com/farcaller/DashDoc#readme) 快捷打开 Dash、Zeal 查询
+
+	> 打开 Preferences > Key Bindings 追加如下快捷键设置
+	>
+	> { "keys": ["ctrl+h"], "command": "dash_doc"}
+
+* [LESS](https://github.com/danro/LESS-sublime)
 * ...
 
 
