@@ -18,6 +18,10 @@
 
 ---
 
+> 当前最新稳定版：Build 3207
+>
+> 官网下载地址：[https://www.sublimetext.com/3](https://www.sublimetext.com/3)
+
 ### 1. 主题及配色方案
 
 + [Soda Theme（虽然经典，但是很久没更新了）](https://github.com/buymeasoda/soda-theme)
@@ -51,29 +55,25 @@
 #### 2.2. 常用插件
 
 > 安装方式：
-> 
+>
 > `ctrl+shift+p` 打开 Package Control 命令窗口 ，输入 `pip` 回车，然后再输入插件名回车，等待安装完成。
-> 
+
 > **注意**：部分插件安装好后需手动重启，并追加一些配置参数，详见各插件安装说明。
 
-* [Alignment](https://github.com/wbond/sublime_alignment) 代码自动对齐
-* AutoFileName 
-* [ BracketHighlighter](https://github.com/facelessuser/BracketHighlighter) 高亮配对符号 --> [高亮色彩配置](./插件BracketHighlighter高亮色彩配置.md)
-* DocBlockr 注释
-* [Emmet](https://emmet.io/)（前身是 Zen Coding，前端必备）
-* jQuery
-* [FileDiffs](https://github.com/colinta/SublimeFileDiffs) 文件差异比较
-* SideBarEnhancements 侧边栏加强
-* [SulimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) 代码提示和补全插件
-* [DashDoc](https://github.com/farcaller/DashDoc#readme) 快捷打开 Dash、Zeal 查询
-
-	> 打开 Preferences > Key Bindings 追加如下快捷键设置
-	>
-	> { "keys": ["ctrl+h"], "command": "dash_doc"}
-
-* [LESS](https://github.com/danro/LESS-sublime)
-* ...
-
+| 插件名称 | 说明 | 备注 |
+| --- | --- | --- |
+| [Alignment](https://github.com/wbond/sublime_alignment) | 代码自动对齐 |  |
+| AutoFileName |  |  |
+| [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter) | 高亮配对符号 | [高亮色彩配置](./插件BracketHighlighter高亮色彩配置.md) |
+| DocBlockr | 注释 |  |
+| [Emmet](https://emmet.io/) | 前身是 `Zen Coding`，前端必备 |  |
+| jQuery |  |  |
+| [FileDiffs](https://github.com/colinta/SublimeFileDiffs)  | 文件差异比较 |  |
+| SideBarEnhancements | 侧边栏加强 |  |
+| [SulimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) | 代码提示和补全插件 |  |
+| [DashDoc](https://github.com/farcaller/DashDoc#readme) | 快捷打开 Dash、Zeal 查询 | 菜单 `Preferences > Key Bindings` 追加如下快捷键设置: `{ "keys": ["ctrl+h"], "command": "dash_doc"}` |
+| [LESS](https://github.com/danro/LESS-sublime) |  |  |
+| ... |  |  |
 
 ### 3. 图标
 
