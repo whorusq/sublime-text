@@ -1,4 +1,9 @@
-v2.x
+
+[TOC]
+
+---
+
+### v2.x
 
 ```
 —– BEGIN LICENSE —–
@@ -16,40 +21,7 @@ B98FC99C 8FAC73EE D2B95564 DF450523
 —— END LICENSE ——
 ```
 
-
-v3.x beta
-
-```
-—– BEGIN LICENSE —–
-riku
-Single User License
-EA7E-806996
-60C55C64D0195F15A118D93ECE0849B3
-30C432F529F7BFAAF6568C6BFDDA1868
-D6DF14D0464281D64A7E2EBB32558D84
-148EF8041694AC00B9FA17D6119A6286
-611D11E26BB48DCF19F76CB1CC7B995E
-F41F7BFAB3348963FF69F163A70ABBEA
-2526B73B523AA28BF66AFEF3ED3D1D21
-BC6CB3B5B6D183FF5C755DE7007C6C41
-—— END LICENSE ——
-
-—– BEGIN LICENSE —–
-Molex, Inc.
-Single User License
-EA7E-818977
-AE248E13 C08A1CDF 2D6751EF 32243003
-53F5EF8A 1522F537 6A09E721 030DC36C
-C477DA16 2BD1681C 0164D104 BB58D77F
-1C221EE9 3296957E 5784C10F 51AA0020
-6F2E553C D8147ADF 7A5B7A4C F843F2A6
-2489CCA4 05759326 1D16227F 4813084D
-61821A38 F4CD6E01 CFC5A7A5 C7D8B685
-1D56D4DB 6B3C3094 57A6F2F3 7CD4177B
-—— END LICENSE ——
-```
-
-v3.0 build +
+### v3.0 build +
 
 ```
 —– BEGIN LICENSE —–
@@ -67,7 +39,7 @@ E36B85CC 84991F19 7575D828 470A92AB
 —— END LICENSE ——
 ```
 
-v3.x (after Build 3155)
+### v3.x (after Build 3155)
 
 ```
 —– BEGIN LICENSE —–
@@ -113,7 +85,7 @@ ECB1BC4E D8010D5A 77BA86C8 BA7F76CC
 —— END LICENSE ——
 ```
 
-v3.x (after Build 3163)
+### v3.x (after Build 3163)
 
 ```
 —– BEGIN LICENSE —–
@@ -129,4 +101,71 @@ EA7E-1153259
 5F7EF854 86B9743C FADC04AA FB0DA5C0
 F913BE58 42FEA319 F954EFDD AE881E0B
 —— END LICENSE ——
+```
+
+### v3.x (after Build 3207)
+
+#### step 1. crack
+
+- Windows
+
+    1. Go to https://hexed.it
+    2. Click on "Open file" and send "sublime_text.exe" executable file.
+    3. Go to "Search for" field, enter "97 94" and click "Search now" button.
+    4. Some results will appear below, click in everyone and see if you see "97 94 0D"
+    5. If you see "97 94 0D", change these values with "00 00 00"
+    6. Then click on "Export" to save and download this new file in your computer.
+
+- macOS
+
+    @https://gist.github.com/cantgis/fb17ab10287c512379fbefad7fa5be1c#gistcomment-2888573
+
+    Version | Platform | Offset | Original | Cracked
+    ---|---|---|---|---|---
+    3207 | macOS | 0x6234B | 55 | C3
+    ||| 0x62061 | 55 | C3
+    ||| 0xDAC5B | 55 48 89 E5 41 57 41 56 | 48 C7 01 00 00 00 C3
+
+    ```bash
+    # @ terminal
+    printf '\xc3' | dd seek=$((0x6234b)) conv=notrunc bs=1 of=/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text
+    printf '\xc3' | dd seek=$((0x62061)) conv=notrunc bs=1 of=/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text
+    printf '\x48\xc7\xc0\x01\x00\x00\x00\xc3' | dd seek=$((0xdac5b)) conv=notrunc bs=1 of=/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text
+    ```
+
+#### step 2. enter license key
+
+```
+----- BEGIN LICENSE -----
+TwitterInc
+200 User License
+EA7E-890007
+1D77F72E 390CDD93 4DCBA022 FAF60790
+61AA12C0 A37081C5 D0316412 4584D136
+94D7F7D4 95BC8C1C 527DA828 560BB037
+D1EDDD8C AE7B379F 50C9D69D B35179EF
+2FE898C4 8E4277A8 555CE714 E1FB0E43
+D5D52613 C3D12E98 BC49967F 7652EED2
+9D2D2E61 67610860 6D338B72 5CF95C69
+E36B85CC 84991F19 7575D828 470A92AB
+------ END LICENSE ------
+```
+
+#### step 3. block the checker
+
+add settings `"update_check": false,` and modify the `hosts` like below:
+
+```bash
+# macOS /Private/etc/hosts
+# Windows: C:\Windows\System32\drivers\etc\hosts
+# Linux: /etc/hosts
+127.0.0.1 www.sublimetext.com
+127.0.0.1 sublimetext.com
+127.0.0.1 sublimehq.com
+127.0.0.1 license.sublimehq.com
+127.0.0.1 45.55.255.55
+127.0.0.1 45.55.41.223
+0.0.0.0 license.sublimehq.com
+0.0.0.0 45.55.255.55
+0.0.0.0 45.55.41.223
 ```
