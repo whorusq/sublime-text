@@ -4,7 +4,7 @@
 >
 > macOS 系统可直接使用 icns 格式，windows 系统请下载后使用工具转换成 ico 格式
 >
-> 推荐一个在线转换工具：[iConvert Icons](https://iconsnverticons.com/online/)
+> 推荐一个在线转换工具：[iConvert Icons](https://iconverticons.com/online/)
 >
 
 
