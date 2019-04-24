@@ -107,24 +107,28 @@ F913BE58 42FEA319 F954EFDD AE881E0B
 
 #### step 1. crack
 
+| Version | Platform | Offset | Original | Cracked |
+| --- | --- | --- | --- | --- |
+| 3207 |  |  |  |  |
+|  | Windows |  |  |  |
+|  |  |  | 97 94 0D | 00 00 00 |
+|  | macOS |  |  |  |
+|  |  | 0x6234B | 55 | C3 |
+|  |  | 0x62061 | 55 | C3 |
+|  |  | 0xDAC5B | 55 48 89 E5 41 57 41 56 | 48 C7 01 00 00 00 C3 |
+
 - Windows
 
+    ```text
     1. Go to https://hexed.it
     2. Click on "Open file" and send "sublime_text.exe" executable file.
     3. Go to "Search for" field, enter "97 94" and click "Search now" button.
     4. Some results will appear below, click in everyone and see if you see "97 94 0D"
     5. If you see "97 94 0D", change these values with "00 00 00"
     6. Then click on "Export" to save and download this new file in your computer.
+    ```
 
 - macOS
-
-    @https://gist.github.com/cantgis/fb17ab10287c512379fbefad7fa5be1c#gistcomment-2888573
-
-    Version | Platform | Offset | Original | Cracked
-    ---|---|---|---|---|---
-    3207 | macOS | 0x6234B | 55 | C3
-    ||| 0x62061 | 55 | C3
-    ||| 0xDAC5B | 55 48 89 E5 41 57 41 56 | 48 C7 01 00 00 00 C3
 
     ```bash
     # @ terminal
