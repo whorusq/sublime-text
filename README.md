@@ -3,9 +3,11 @@
 	<a href="https://www.sublimetext.com">
 		<img src="./icons/Sublime_Text.png" attr="sublime text 3 logo" title="官网：https://www.sublimetext.com">
 	</a>
+	<p align="center">最新稳定版：v3.2.2, Build 3211</p>
+	<p align="center">官网下载地址：<a href="https://www.sublimetext.com/3" target="_blank">https://www.sublimetext.com/3</a></p>
 </p>
 
-### 索引
+### 目录
 
 1. [主题及配色方案](#1-主题及配色方案)
 2. [插件](#2-插件)
@@ -17,10 +19,6 @@
 6. [字体](#6-字体)
 
 ---
-
-> 当前最新稳定版：Build 3207
->
-> 官网下载地址：[https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 
 ### 1. 主题及配色方案
 
