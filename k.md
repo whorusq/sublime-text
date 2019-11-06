@@ -21,7 +21,7 @@ DD9AF44B 99C49590 D2DBDEE1 75860FD2
 —— END LICENSE ——
 ```
 
-### v3.0 build 3207
+### v3.2.1 (BUILD 3207)
 
 #### step 1. crack
 
@@ -92,7 +92,7 @@ add settings `"update_check": false,` and modify the `hosts` like below:
 0.0.0.0 45.55.41.223
 ```
 
-### v3.0 build +
+### v3.0+
 
 ```
 —– BEGIN LICENSE —–
@@ -110,9 +110,13 @@ E36B85CC 84991F19 7575D828 470A92AB
 —— END LICENSE ——
 ```
 
-### v3.0 beta 3155+
+### v3.x beta 
 
 ```
+// -------------------
+// 3155+
+// -------------------
+
 —– BEGIN LICENSE —–
 eldon
 Single User License
@@ -140,11 +144,11 @@ CEBA4697 535E29CA 0D2D0D4D ACE548CE
 24CEB623 D7232749 F2515349 FB675F93
 C55635A7 B1E32AB0 3D055979 041E0359
 —— END LICENSE ——
-```
 
-### v3.0 beta 3163+
+// -------------------
+// 3163+
+// -------------------
 
-```
 —– BEGIN LICENSE —–
 sgbteam
 Single User License
