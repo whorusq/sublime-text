@@ -252,12 +252,16 @@ Alt + Shift + 5：进行上下左右分屏
 }
 ```
 
-### 6. 字体
+### 6. 等宽编程字体
 
-* [Microsoft Yahei Mono](./fonts/Microsoft-Yahei-Mono.ttf)
+- [JetBrainsMono](./fonts/JetBrainsMono-1.0.0.zip)
 
-![Microsoft Yahei Mono](./Microsoft-Yahei-Mono.jpg)
+![JetBrainsMono](./fonts/JetBrainsMono.png)
 
-* [Source Code Pro](./fonts/SourceCodePro-Regular.ttf)
+- [Source Code Pro](./fonts/SourceCodePro-Regular.ttf)
 
-![Source Code Pro](Source-Code-Pro.jpg)
+![Source Code Pro](./fonts/Source-Code-Pro.png)
+
+- [Ubuntu Mono](./fonts/ubuntu_mono.zip)
+
+![Ubuntu Mono](./fonts/ubuntu_mono.png)
