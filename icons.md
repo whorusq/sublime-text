@@ -16,6 +16,13 @@
 </p>
 
 <p>
+    <a href="./icons/st_big_sur.png">
+        <img src="./icons/st_big_sur.png" width="256" height="256" alt="Sublime icon big sur"  />
+    </a> Big Sur style |
+    <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/st_big_sur.png">PNG下载</a> | <a href="https://github.com/whorusq/sublime-text-3/raw/master/icons/st_big_sur.icns">ICNS 下载</a>
+</p>
+
+<p>
     <a href="./icons/st3001.png">
         <img src="./icons/st3001.png" width="256" height="256" alt="Sublime icon"  />
     </a>
