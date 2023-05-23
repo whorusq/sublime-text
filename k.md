@@ -3,6 +3,59 @@
 
 ---
 
+### 4143
+
+1. Download the application and drag it into `/Applications`
+
+2. Move to the app's directory
+
+```bash
+cd "/Applications/Sublime Text.app/Contents/MacOS/"
+```
+
+3. Do below to comfirm version is matched
+
+```bash
+md5 -q sublime_text | grep -i "70909B4BCCB3209C6F6C80122171BA84"
+```
+
+4. Change the hex data just using `echo` and `xxd`
+
+```bash
+echo 01055A38: E0 03 1F AA C0 03 5F D6 | xxd -r - sublime_text
+echo 00FE4E80: 1F 20 03 D5 | xxd -r - sublime_text
+echo 00FE4E94: 1F 20 03 D5 | xxd -r - sublime_text
+echo 01056D2C: C0 03 5F D6 | xxd -r - sublime_text
+echo 010556A0: C0 03 5F D6 | xxd -r - sublime_text
+echo 00FE04C0: C0 03 5F D6 | xxd -r - sublime_text
+```
+
+5. Replace the signature
+
+```bash
+codesign --force --deep --sign - "/Applications/Sublime Text.app"
+```
+
+
+6. Execute app, done. No more need the license key.
+
+```txt
+----- BEGIN LICENSE -----
+TwitterInc
+200 User License
+EA7E-890007
+1D77F72E 390CDD93 4DCBA022 FAF60790
+61AA12C0 A37081C5 D0316412 4584D136
+94D7F7D4 95BC8C1C 527DA828 560BB037
+D1EDDD8C AE7B379F 50C9D69D B35179EF
+2FE898C4 8E4277A8 555CE714 E1FB0E43
+D5D52613 C3D12E98 BC49967F 7652EED2
+9D2D2E61 67610860 6D338B72 5CF95C69
+E36B85CC 84991F19 7575D828 470A92AB
+------ END LICENSE ------
+```
+
+
 ### v4126-
 
 ```
